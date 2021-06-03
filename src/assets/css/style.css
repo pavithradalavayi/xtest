@@ -1,0 +1,266 @@
+    /* ----------------------------------------------------------
+    :: Template Name: Karl - Fashion Ecommerce Template
+    :: Author: Colorlib
+    :: Author URL: https://colorlib.com
+    :: Description: Karl is smart & elegant fashion e-commerce Template. It's suitable for all e-commerce business platform. It's super responsive for all      Desktop/Mobile layout.
+    :: Version: 1.0
+    :: Created: 09 January 2018
+    :: Last Updated: 09 January 2018
+    ---------------------------------------------------------- */
+
+    /* -------------------------------------------------
+    ============ PLACE YOUR CUSTOM CSS HERE ============
+    ------------------------------------------------- */
+
+    
+
+.brand-log{
+    justify-content: space-between;
+}
+
+.top_logo img {
+    max-width: 45%;
+}
+.height-300 {
+    height: 300px !important;
+}
+.catagory-content h6 {
+    color:#252525;
+}
+
+.catagory-content h2 {
+    color:#474646;
+}
+
+.catagory-content a {
+    color:#272727;
+}
+.d-flex {
+    display: -webkit-box!important;
+}
+
+
+
+.v2cFq {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    margin-bottom: 25px;
+}
+
+.CM5tQ {
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 1.5;
+    color: #4f585e;
+}
+
+.nX-IH.nX-IH {
+    font-size: 18px;
+    font-weight: 600;
+    color: #10847e;
+    padding: 0 5px;
+    text-transform: capitalize;
+}
+
+._2KeJl {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    /* display: flex; */
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    padding: 30px;
+}
+
+._3IJFL, ._16Xra {
+    max-height: 392px;
+    border-radius: 6px;
+}
+
+
+@media (min-width: 750px){
+    .col-lg-7 {
+        -webkit-box-flex: 0;
+        -ms-flex: 0 0 80.333333%;
+        flex: 0 0 80.333333%;
+        max-width: 80.333333%;
+    } 
+    .top_logo img {
+        max-width: 20%;
+    }
+    .top_header_area {
+        /*height: 100px; */
+        width: 100%;
+        position: relative;
+        z-index: 1000;
+    }
+}
+
+  .cards-wrapper {
+    grid-column: center-start / -1;
+    overflow: auto;
+    display: flex;
+    padding-bottom: 1em;
+  }
+
+  .card {
+    background-color: #d0f0ee;
+    color: #15928A;
+    height: 20em;
+    min-width: 13em;
+    margin-right: 1em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow-x: auto;
+    overflow-y: hidden;
+  
+    margin-right: 10px;
+  }
+      
+  .card:last-child {
+    margin-right: 0;
+  }
+
+  
+  .card::after {
+    content: "";
+    display: block;
+    min-width: var(--page-margin);
+  }
+  .card {
+    background-color: #fff;
+    overflow-x: auto;
+    overflow-y: hidden;
+    height: 300px;
+  
+    margin-right: 10px;
+  }
+  
+  .card::-webkit-scrollbar {
+      width: 0px;
+      height: 0px;
+      background: transparent;
+  }
+
+  .section_padding_100_0 {
+    padding: 10px 0 0;
+}
+
+.section_heading {
+    margin-bottom: 0px;
+    position: relative;
+    z-index: 1;
+}
+.section_heading h2 {
+    font-size: 35px;
+    margin-bottom: 0;
+    text-transform: uppercase;
+    
+}
+.section_heading h6 {
+    font-size: 1.2rem;
+    margin-bottom: 0;
+    text-transform: uppercase;
+    margin-left: 25px;
+}
+
+.products-card {
+    padding: 25px;
+}
+
+.flt-brand {
+    margin: 5px;
+    padding: 5px;
+
+    /* width: 100%; */
+    height: 200px;
+    overflow: auto;
+    text-align: justify;
+}
+
+li.list-flt {
+    display: flex;
+    justify-content: space-between;
+    padding : 5px;
+}
+
+@media (min-width: 992px){
+    .col-lg-4 {
+        -webkit-box-flex: 0;
+        -ms-flex: 0 0 33.333333%;
+        flex: 0 0 25%;
+        max-width: 33.333333%;
+    }
+}
+.breadcrumb {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    /* display: flex; */
+    -ms-flex-wrap: wrap;
+    flex-wrap: unset;
+    padding: 1rem 0rem;
+    margin-bottom: 1rem;
+    list-style: none;
+    background-color: #ffffff;
+    border-radius: .25rem
+}
+
+.breadcrumb-wrap {
+    font-size: 14px;
+}
+
+.Product-header {
+    padding: 10px 0;
+    margin: 15px 0;
+}
+
+
+
+.single_gallery_item{
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 40%;
+    padding: 0px;
+    margin: 10px;
+}
+
+.des-ttl {
+    overflow: hidden;
+    text-overflow: clip;
+    width: 100%;
+    white-space: nowrap;
+    /* width: 50px; */
+    overflow: hidden;
+    text-overflow: clip;
+    /* border: 1px solid #000000; */
+}
+
+
+element.style {
+    visibility: visible;
+    animation-delay: 0.7s;
+    animation-name: fadeInUpBig;
+}
+.col-12.col-sm-6.col-lg-4.single_gallery_item.wow.fadeInUpBig.newCard {
+    /* height: 300px; */
+    overflow-x: auto;
+    overflow-y: hidden;
+}
+
+@media (min-width: 992px){
+
+    .card-size {
+        -webkit-box-flex: 0;
+        -ms-flex: 0 0 33.333333%;
+        flex: 0 0 15%;
+        max-width: 33.333333%;
+    }
+}

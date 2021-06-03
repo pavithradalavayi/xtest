@@ -1,0 +1,51 @@
+.head{
+    color: darkblue;
+    font-size: 15px;
+}
+.head_{
+    font-size: 12px;
+}
+.missionlist{
+    font-size: 15px;
+    padding-left:10px;
+}
+p{
+    font-size: 12px;
+    font-style: bold;
+    padding-bottom: 5px;
+}
+span{
+    color: darkblue;
+    font-size: 14px;
+    padding-bottom: 5px;
+}
+section{
+    background-color:#f4f4f4;
+}
+.single_gallery_item{
+      background-color:hsl(0, 20%, 99%);
+}
+.pimg{
+    background-color:white;
+    padding:10px;
+
+}
+.button {
+  background-color: #9de4a0;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  padding: 10px 32px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 12px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+.button:focus {
+     background-color: #48aa4d;
+}
+.pdata{
+    text-align: center;
+}
+

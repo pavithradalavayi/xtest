@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 41.2 (35397) - http://www.bohemiancoding.com/sketch -->
+    <title>53824769-C9E4-468A-B96A-17AE0AB06B1B</title>
+    <desc>Created with sketchtool.</desc>
+    <defs></defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="icon/success">
+            <g>
+                <rect id="Rectangle" x="0" y="0" width="24" height="24"></rect>
+                <g id="icon" transform="translate(3.000000, 3.000000)">
+                    <path d="M9.0002,18.0003 C4.0372,18.0003 0.0002,13.9633 0.0002,9.0003 C0.0002,4.0373 4.0372,0.0003 9.0002,0.0003 C13.9622,0.0003 18.0002,4.0373 18.0002,9.0003 C18.0002,13.9633 13.9622,18.0003 9.0002,18.0003" id="Fill-1" fill="#1AAB2A"></path>
+                    <path d="M7.1467,12.0696 C7.0257,12.0696 6.9037,12.0226 6.8117,11.9296 L4.9587,10.0776 C4.7727,9.8916 4.7727,9.5916 4.9587,9.4066 C5.1437,9.2216 5.4427,9.2216 5.6277,9.4066 L7.1577,10.9366 L12.3847,6.0586 C12.5737,5.8806 12.8747,5.8906 13.0537,6.0816 C13.2307,6.2736 13.2217,6.5726 13.0297,6.7516 L7.4697,11.9416 C7.3787,12.0266 7.2627,12.0696 7.1467,12.0696" id="Fill-4" fill="#FEFEFE"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

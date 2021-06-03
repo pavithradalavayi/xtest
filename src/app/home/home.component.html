@@ -1,0 +1,156 @@
+<section class="shop_grid_area section_padding_100">
+
+    <div class="container ">
+        <h6>SpaceX Launch Programs</h6>
+        <div class="row">
+            <div class="col-lg-2 card_bg">
+                <div class="shop_grid_product_area">
+                    <b>Filters</b>
+                    <p class="pdata">Launch Year</p>
+
+                    <div class="row">
+                        <div class="nav-side-menu" data-wow-delay="0.2s" *ngFor="let filter of filterList">
+
+                            <button class="button" (click)="applyfilter(filter)">{{filter}}</button>
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="shop_grid_product_area">
+
+                    <p class="pdata">Successfull Launch</p>
+
+                    <div class="row">
+
+                        <button class="button" (click)="launchData('true')">True</button>
+                        <button class="button" (click)="launchData('false')">False</button>
+
+                    </div>
+                </div>
+
+
+                <div class="shop_grid_product_area">
+
+                    <p class="pdata"> Successfull Launch</p>
+
+                    <div class="row">
+
+                        <button class="button" (click)="landingData('true')">True</button>
+                        <button class="button" (click)="landingData('false')">False</button>
+
+                    </div>
+                </div>
+            </div>
+
+
+
+            <div class="col-12 col-md-8 col-lg-10">
+                <div class="shop_grid_product_area">
+                    <div class="row">
+
+
+                        <!-- Single gallery Item -->
+                        <div class="col-md-2 single_gallery_item wow fadeInUpBig" *ngFor="let data of apidata"
+                            data-wow-delay="0.2s">
+                            <div *ngIf="data.launch_year == filterText">
+
+
+                                <!-- Product Image -->
+                                <div class="pimg">
+                                    <div class="product-img">
+
+                                        <img src="{{data.links.mission_patch}}" alt="">
+                                        <div class="product-quicview">
+                                            <a href="#" data-toggle="modal" data-target="#quickview"><i
+                                                    class="ti-plus"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- Product Description -->
+                                <div class="product-description">
+
+                                    <p>
+                                        <b class="head"> {{data.mission_name}}:#{{data.flight_number}}</b>
+                                    </p>
+                                    <b class="head_">Mission Ids:</b>
+                                    <div class="missionlist" *ngIf="data.mission_id.length == 0">
+
+                                        <li><span>data.mission_id</span></li>
+
+                                    </div>
+                                    <div class="missionlist" *ngIf="data.mission_id.length > 0">
+
+                                        <li><span>{{data.mission_id}}</span></li>
+
+                                    </div>
+
+                                    <p><b>Launch Year :</b> {{data.launch_year}}</p>
+                                    <p><b>Successfull Launch :</b> {{data.launch_success}}</p>
+                                    <p><b>Successfull Landing : </b>{{data.launch_year}}</p>
+
+
+
+                                </div>
+                            </div>
+                            <div *ngIf="filterText == 'ALL'">
+
+
+                                <!-- Product Image -->
+                                <div class="pimg">
+                                    <div class="product-img">
+
+                                        <img src="{{data.links.mission_patch}}" alt="">
+                                        <div class="product-quicview">
+                                            <a href="#" data-toggle="modal" data-target="#quickview"><i
+                                                    class="ti-plus"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- Product Description -->
+                                <div class="product-description">
+
+                                    <p>
+                                        <b class="head"> {{data.mission_name}}:#{{data.flight_number}}</b>
+                                    </p>
+                                    <b class="head_">Mission Ids:</b>
+                                    <div class="missionlist" *ngIf="data.mission_id.length == 0">
+
+                                        <li><span>data.mission_id</span></li>
+
+                                    </div>
+                                    <div class="missionlist" *ngIf="data.mission_id.length > 0">
+
+                                        <li><span>{{data.mission_id}}</span></li>
+
+                                    </div>
+
+                                    <p><b>Launch Year :</b> {{data.launch_year}}</p>
+                                    <p><b>Successfull Launch :</b> {{data.launch_success}}</p>
+                                    <p><b>Successfull Landing : </b>launch.landing</p>
+
+
+
+                                </div>
+                            </div>
+
+
+
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+            <!-- Render pagination links -->
+
+            <div class="shop_pagination_area wow fadeInUp" data-wow-delay="1.1s">
+                <nav aria-label="Page navigation">
+
+                </nav>
+            </div>
+
+        </div>
+    </div>
+
+</section>
